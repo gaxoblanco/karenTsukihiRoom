@@ -1,0 +1,939 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression",
+        "KHR_materials_transmission"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Ventana Flor ",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                7.578698635101318,
+                -29.002685546875
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Marco Externo todos",
+            "rotation" : [
+                0.5000000596046448,
+                0.5,
+                0.5,
+                0.5000001192092896
+            ],
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                -22.297767639160156,
+                6.732505798339844,
+                -31.615009307861328
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Marco Externo todos.001",
+            "rotation" : [
+                0.5000000596046448,
+                0.5,
+                0.5,
+                0.5000001192092896
+            ],
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                25.634693145751953,
+                6.732505798339844,
+                -31.615009307861328
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "Cortina",
+            "scale" : [
+                6.587606430053711,
+                6.587606430053711,
+                6.587606430053711
+            ],
+            "translation" : [
+                -23.314748764038086,
+                5.015439987182617,
+                -28.899450302124023
+            ]
+        },
+        {
+            "mesh" : 4,
+            "name" : "ventana lateral .001",
+            "scale" : [
+                87.05458068847656,
+                40.933692932128906,
+                61.60976791381836
+            ],
+            "translation" : [
+                6.835556507110596,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "vidrio ventana grande",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                13.329577445983887,
+                9.822209358215332,
+                13.329577445983887
+            ],
+            "translation" : [
+                0.6565873622894287,
+                7.614451885223389,
+                -28.753028869628906
+            ]
+        },
+        {
+            "mesh" : 6,
+            "name" : "Marco interno todos.002",
+            "rotation" : [
+                0,
+                0,
+                -0.7071067690849304,
+                0.7071068286895752
+            ],
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                28.65914535522461,
+                6.465640068054199,
+                -2.644709587097168
+            ]
+        },
+        {
+            "mesh" : 7,
+            "name" : "Cortina.001",
+            "scale" : [
+                6.587606430053711,
+                6.587606430053711,
+                6.587606430053711
+            ],
+            "translation" : [
+                18.32082176208496,
+                5.015439987182617,
+                -28.899450302124023
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1
+                }
+            },
+            "name" : "Marco Ventana ornamental",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Marcos",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 5
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "cortinas",
+            "normalTexture" : {
+                "index" : 6
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 8
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Marco ventana cuadrada ",
+            "normalTexture" : {
+                "index" : 9
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 10
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 11
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Vidrios",
+            "normalTexture" : {
+                "index" : 12
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 13
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 14
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Marco Ventana",
+            "normalTexture" : {
+                "index" : 15
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 16
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 17
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.007",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.025",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14,
+                        "COLOR_0" : 15
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 3,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2,
+                                "COLOR_0" : 3
+                            }
+                        }
+                    },
+                    "indices" : 16,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.015",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 17,
+                        "NORMAL" : 18,
+                        "TEXCOORD_0" : 19
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 4,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 20,
+                    "material" : 3,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.016",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 21,
+                        "NORMAL" : 22,
+                        "TEXCOORD_0" : 23
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 5,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 24,
+                    "material" : 4,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.035",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 25,
+                        "NORMAL" : 26,
+                        "TEXCOORD_0" : 27
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 6,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 28,
+                    "material" : 5,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 29,
+                        "NORMAL" : 30,
+                        "TEXCOORD_0" : 31,
+                        "COLOR_0" : 32
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 7,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2,
+                                "COLOR_0" : 3
+                            }
+                        }
+                    },
+                    "indices" : 16,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        },
+        {
+            "sampler" : 0,
+            "source" : 9
+        },
+        {
+            "sampler" : 0,
+            "source" : 10
+        },
+        {
+            "sampler" : 0,
+            "source" : 11
+        },
+        {
+            "sampler" : 0,
+            "source" : 12
+        },
+        {
+            "sampler" : 0,
+            "source" : 13
+        },
+        {
+            "sampler" : 0,
+            "source" : 14
+        },
+        {
+            "sampler" : 0,
+            "source" : 15
+        },
+        {
+            "sampler" : 0,
+            "source" : 16
+        },
+        {
+            "sampler" : 0,
+            "source" : 17
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco Ventana ornamental_Normal",
+            "uri" : "Marco%20Ventana%20ornamental_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco Ventana ornamental_Base_Color",
+            "uri" : "Marco%20Ventana%20ornamental_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco Ventana ornamental_Metallic-Marco Ventana ornamental_Roughness",
+            "uri" : "Marco%20Ventana%20ornamental_Metallic-Marco%20Ventana%20ornamental_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marcos_Normal",
+            "uri" : "Marcos_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marcos_Base_Color",
+            "uri" : "Marcos_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marcos_Metallic-Marcos_Roughness",
+            "uri" : "Marcos_Metallic-Marcos_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "cortinas_Normal",
+            "uri" : "cortinas_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "cortinas_Base_Color",
+            "uri" : "cortinas_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "cortinas_Metallic-cortinas_Roughness",
+            "uri" : "cortinas_Metallic-cortinas_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco ventana cuadrada _Normal",
+            "uri" : "Marco%20ventana%20cuadrada%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco ventana cuadrada _Base_Color",
+            "uri" : "Marco%20ventana%20cuadrada%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco ventana cuadrada _Metallic-Marco ventana cuadrada _Roughness",
+            "uri" : "Marco%20ventana%20cuadrada%20_Metallic-Marco%20ventana%20cuadrada%20_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vidrios_Normal",
+            "uri" : "Vidrios_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vidrios_Base_Color",
+            "uri" : "Vidrios_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vidrios_Metallic-Vidrios_Roughness",
+            "uri" : "Vidrios_Metallic-Vidrios_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco Ventana_Normal",
+            "uri" : "Marco%20Ventana_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco Ventana_Base_Color",
+            "uri" : "Marco%20Ventana_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Marco Ventana_Metallic-Marco Ventana_Roughness",
+            "uri" : "Marco%20Ventana_Metallic-Marco%20Ventana_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 455461,
+            "max" : [
+                1.7668696641921997,
+                1.3972351551055908,
+                0.08591987192630768
+            ],
+            "min" : [
+                -1.7668696641921997,
+                -1.3972351551055908,
+                -4.1857794030875084e-07
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 455461,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 455461,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 685536,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1044,
+            "max" : [
+                1.05182683467865,
+                0.27446824312210083,
+                0.5720773935317993
+            ],
+            "min" : [
+                0.14649319648742676,
+                0.19404685497283936,
+                -0.11028885841369629
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1044,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1044,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 1824,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1040,
+            "max" : [
+                1.0518265962600708,
+                0.2744683027267456,
+                -0.09061798453330994
+            ],
+            "min" : [
+                0.1464930772781372,
+                0.19404691457748413,
+                -0.7729842662811279
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1040,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1040,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 1824,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1388,
+            "max" : [
+                0.9395664930343628,
+                1.7347331047058105,
+                0.07340727746486664
+            ],
+            "min" : [
+                0.04194179177284241,
+                1.564361572265625,
+                0.014035161584615707
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1388,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1388,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 1388,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 2760,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1012,
+            "max" : [
+                -0.44730615615844727,
+                0.7404802441596985,
+                0.45446085929870605
+            ],
+            "min" : [
+                -0.46906420588493347,
+                -0.004781592637300491,
+                -0.013847659341990948
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1012,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1012,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 2340,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                1.2596163749694824,
+                0.017620965838432312,
+                0.9999999403953552
+            ],
+            "min" : [
+                -1.2516506910324097,
+                -0.0050086984410882,
+                -0.9999998807907104
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 4523,
+            "max" : [
+                1.3087588548660278,
+                -0.43632006645202637,
+                4.157801628112793
+            ],
+            "min" : [
+                -1.0438097715377808,
+                -5.464419364929199,
+                -2.8608145713806152
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 4523,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 4523,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 8658,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1388,
+            "max" : [
+                0.9395664930343628,
+                1.7347331047058105,
+                0.07340727746486664
+            ],
+            "min" : [
+                0.04194179177284241,
+                1.564361572265625,
+                0.014035161584615707
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1388,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1388,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 1388,
+            "normalized" : true,
+            "type" : "VEC4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1912593,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6281,
+            "byteOffset" : 1912596
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6202,
+            "byteOffset" : 1918880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5877,
+            "byteOffset" : 1925084
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3592,
+            "byteOffset" : 1930964
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 321,
+            "byteOffset" : 1934556
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17086,
+            "byteOffset" : 1934880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5877,
+            "byteOffset" : 1951968
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1957848,
+            "uri" : "windows.bin"
+        }
+    ]
+}

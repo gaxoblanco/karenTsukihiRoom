@@ -1,0 +1,745 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "asiendo silla ",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Respaldo Silla",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "regaton silla",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "asiendo silla .001",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 4,
+            "name" : "Respaldo Silla.001",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "regaton silla.001",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "chearPilowB",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "sillaB",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 5
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "chearNipples+Cajita",
+            "normalTexture" : {
+                "index" : 6
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 8
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "silla almohadon",
+            "normalTexture" : {
+                "index" : 9
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 10
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 11
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "silla",
+            "normalTexture" : {
+                "index" : 12
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 13
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 14
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "silla regatones + frente cajitas ",
+            "normalTexture" : {
+                "index" : 15
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 16
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 17
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Circle.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Circle.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "Circle.009",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "Circle.010",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18
+                    },
+                    "indices" : 19,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Circle.011",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 20,
+                        "NORMAL" : 21,
+                        "TEXCOORD_0" : 22
+                    },
+                    "indices" : 23,
+                    "material" : 5
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "silla almohadon_Normal",
+            "uri" : "silla%20almohadon_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla almohadon_Base_Color",
+            "uri" : "silla%20almohadon_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla almohadon_Metallic-silla almohadon_Roughness",
+            "uri" : "silla%20almohadon_Metallic-silla%20almohadon_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla_Normal",
+            "uri" : "silla_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla_Base_Color",
+            "uri" : "silla_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla_Metallic-silla_Roughness",
+            "uri" : "silla_Metallic-silla_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla regatones + frente cajitas _Normal",
+            "uri" : "silla%20regatones%20%20frente%20cajitas%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla regatones + frente cajitas _Base_Color",
+            "uri" : "silla%20regatones%20%20frente%20cajitas%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla regatones + frente cajitas _Metallic-silla regatones + frente cajitas _Roughness",
+            "uri" : "silla%20regatones%20%20frente%20cajitas%20_Metallic-silla%20regatones%20%20frente%20cajitas%20_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 5104,
+            "max" : [
+                -2.3151023387908936,
+                0.4145640730857849,
+                -1.9461110830307007
+            ],
+            "min" : [
+                -2.667602300643921,
+                0.30182310938835144,
+                -2.2709832191467285
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 5104,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 5104,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 7656,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 77938,
+            "max" : [
+                -2.2404022216796875,
+                0.7339298725128174,
+                -1.873714566230774
+            ],
+            "min" : [
+                -2.7413618564605713,
+                0.03345004841685295,
+                -2.343395948410034
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 77938,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 77938,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5125,
+            "count" : 116928,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 6044,
+            "max" : [
+                -2.2214174270629883,
+                0.9530975222587585,
+                -1.8545360565185547
+            ],
+            "min" : [
+                -3.2784667015075684,
+                0,
+                -2.5425972938537598
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 6044,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 6044,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 9072,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 5104,
+            "max" : [
+                2.667602300643921,
+                0.4145640730857849,
+                -1.9461109638214111
+            ],
+            "min" : [
+                2.3151023387908936,
+                0.30182313919067383,
+                -2.2709832191467285
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 5104,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 5104,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 7656,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 77940,
+            "max" : [
+                2.7413618564605713,
+                0.7339298129081726,
+                -1.873714566230774
+            ],
+            "min" : [
+                2.2404022216796875,
+                0.03345004841685295,
+                -2.343395948410034
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 77940,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 77940,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5125,
+            "count" : 116928,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5126,
+            "count" : 6046,
+            "max" : [
+                3.2784664630889893,
+                0.9530975222587585,
+                -1.8545360565185547
+            ],
+            "min" : [
+                2.2214174270629883,
+                0,
+                -2.5425972938537598
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 21,
+            "componentType" : 5126,
+            "count" : 6046,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 22,
+            "componentType" : 5126,
+            "count" : 6046,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5123,
+            "count" : 9072,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 61248,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 61248,
+            "byteOffset" : 61248
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40832,
+            "byteOffset" : 122496
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15312,
+            "byteOffset" : 163328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 935256,
+            "byteOffset" : 178640
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 935256,
+            "byteOffset" : 1113896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 623504,
+            "byteOffset" : 2049152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 467712,
+            "byteOffset" : 2672656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72528,
+            "byteOffset" : 3140368
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72528,
+            "byteOffset" : 3212896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48352,
+            "byteOffset" : 3285424
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18144,
+            "byteOffset" : 3333776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 61248,
+            "byteOffset" : 3351920
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 61248,
+            "byteOffset" : 3413168
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40832,
+            "byteOffset" : 3474416
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15312,
+            "byteOffset" : 3515248
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 935280,
+            "byteOffset" : 3530560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 935280,
+            "byteOffset" : 4465840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 623520,
+            "byteOffset" : 5401120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 467712,
+            "byteOffset" : 6024640
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72552,
+            "byteOffset" : 6492352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72552,
+            "byteOffset" : 6564904
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48368,
+            "byteOffset" : 6637456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18144,
+            "byteOffset" : 6685824
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 6703968,
+            "uri" : "chears.bin"
+        }
+    ]
+}

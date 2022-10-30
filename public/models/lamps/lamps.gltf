@@ -1,0 +1,363 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cuerpo y cable",
+            "scale" : [
+                2.498028039932251,
+                2.498028039932251,
+                2.498028039932251
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -1.7616987228393555,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Bombiilla - problemas",
+            "scale" : [
+                2.498028039932251,
+                2.498028039932251,
+                2.498028039932251
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -1.7616987228393555,
+                -0.43944767117500305
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "lamapra ",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "focos ",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 5
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "name" : "Material.007",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle.007",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Circle.008",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "lamapra _Normal",
+            "uri" : "lamapra%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "lamapra _Base_Color",
+            "uri" : "lamapra%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "lamapra _Metallic-lamapra _Roughness",
+            "uri" : "lamapra%20_Metallic-lamapra%20_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "focos _Normal",
+            "uri" : "focos%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "focos _Base_Color",
+            "uri" : "focos%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "focos _Metallic-focos _Roughness",
+            "uri" : "focos%20_Metallic-focos%20_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2288,
+            "max" : [
+                11.075090408325195,
+                10.542318344116211,
+                1.6760900020599365
+            ],
+            "min" : [
+                -11.075090408325195,
+                9.046309471130371,
+                -1.6760896444320679
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2288,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2288,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 3456,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2466,
+            "max" : [
+                10.031286239624023,
+                9.492744445800781,
+                0.635336697101593
+            ],
+            "min" : [
+                -10.031286239624023,
+                9.120633125305176,
+                -0.6169538497924805
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2466,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2466,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 3636,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 3252,
+            "max" : [
+                10.104933738708496,
+                9.229879379272461,
+                0.08186721056699753
+            ],
+            "min" : [
+                -10.104933738708496,
+                8.537172317504883,
+                -0.15169966220855713
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 3252,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 3252,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 5112,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 27456,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27456,
+            "byteOffset" : 27456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18304,
+            "byteOffset" : 54912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6912,
+            "byteOffset" : 73216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29592,
+            "byteOffset" : 80128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29592,
+            "byteOffset" : 109720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19728,
+            "byteOffset" : 139312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7272,
+            "byteOffset" : 159040
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39024,
+            "byteOffset" : 166312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39024,
+            "byteOffset" : 205336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26016,
+            "byteOffset" : 244360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10224,
+            "byteOffset" : 270376
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 280600,
+            "uri" : "lamps.bin"
+        }
+    ]
+}

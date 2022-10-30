@@ -1,0 +1,1002 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cama A ",
+            "scale" : [
+                14.535524368286133,
+                14.535518646240234,
+                14.535518646240234
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.861382961273193,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "colchon B",
+            "scale" : [
+                14.535518646240234,
+                14.535518646240234,
+                14.535518646240234
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.92868709564209,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Cama B",
+            "rotation" : [
+                0,
+                -1,
+                0,
+                -1.6292068494294654e-07
+            ],
+            "scale" : [
+                14.535518646240234,
+                14.535518646240234,
+                14.535518646240234
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "colchon A",
+            "rotation" : [
+                0,
+                -1,
+                0,
+                -1.6292068494294654e-07
+            ],
+            "scale" : [
+                14.535518646240234,
+                14.535518646240234,
+                14.535518646240234
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.7070817947387695,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 4,
+            "name" : "Tubo B",
+            "scale" : [
+                14.183975219726562,
+                14.183975219726562,
+                14.183975219726562
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -1.9768877029418945,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "tubo A ",
+            "rotation" : [
+                0,
+                1,
+                0,
+                -1.6292068494294654e-07
+            ],
+            "scale" : [
+                14.183975219726562,
+                14.183975219726562,
+                14.183975219726562
+            ],
+            "translation" : [
+                0.6727672219276428,
+                12.409122467041016,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 6,
+            "name" : "almodada B",
+            "rotation" : [
+                0,
+                0.27587947249412537,
+                0,
+                0.96119225025177
+            ],
+            "scale" : [
+                9.303902626037598,
+                9.303902626037598,
+                9.303902626037598
+            ],
+            "translation" : [
+                5.405093193054199,
+                -7.163384437561035,
+                7.212624549865723
+            ]
+        },
+        {
+            "mesh" : 7,
+            "name" : "Almohada A",
+            "rotation" : [
+                0,
+                -0.6795649528503418,
+                0,
+                0.7336153388023376
+            ],
+            "scale" : [
+                9.303902626037598,
+                9.303902626037598,
+                9.303902626037598
+            ],
+            "translation" : [
+                -8.445656776428223,
+                7.323884963989258,
+                -0.14086349308490753
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "cama A ",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "colchon A ",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 5
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Cama B ",
+            "normalTexture" : {
+                "index" : 6
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 8
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "colchon b ",
+            "normalTexture" : {
+                "index" : 9
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 10
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 11
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "baranda B ",
+            "normalTexture" : {
+                "index" : 12
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 13
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 14
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "baranda A ",
+            "normalTexture" : {
+                "index" : 15
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 16
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 17
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "almohada 2",
+            "normalTexture" : {
+                "index" : 18
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 19
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 20
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "almohada ",
+            "normalTexture" : {
+                "index" : 21
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 22
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 23
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Circle.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Circle.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Circle.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 3,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 15,
+                    "material" : 3,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Torus.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 4,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 19,
+                    "material" : 4,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Torus.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 20,
+                        "NORMAL" : 21,
+                        "TEXCOORD_0" : 22
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 5,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 19,
+                    "material" : 5,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Cube.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 23,
+                        "NORMAL" : 24,
+                        "TEXCOORD_0" : 25
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 6,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 26,
+                    "material" : 6,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Cube.035",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 27,
+                        "NORMAL" : 28,
+                        "TEXCOORD_0" : 29
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 7,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 26,
+                    "material" : 7,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        },
+        {
+            "sampler" : 0,
+            "source" : 9
+        },
+        {
+            "sampler" : 0,
+            "source" : 10
+        },
+        {
+            "sampler" : 0,
+            "source" : 11
+        },
+        {
+            "sampler" : 0,
+            "source" : 12
+        },
+        {
+            "sampler" : 0,
+            "source" : 13
+        },
+        {
+            "sampler" : 0,
+            "source" : 14
+        },
+        {
+            "sampler" : 0,
+            "source" : 15
+        },
+        {
+            "sampler" : 0,
+            "source" : 16
+        },
+        {
+            "sampler" : 0,
+            "source" : 17
+        },
+        {
+            "sampler" : 0,
+            "source" : 18
+        },
+        {
+            "sampler" : 0,
+            "source" : 19
+        },
+        {
+            "sampler" : 0,
+            "source" : 20
+        },
+        {
+            "sampler" : 0,
+            "source" : 21
+        },
+        {
+            "sampler" : 0,
+            "source" : 22
+        },
+        {
+            "sampler" : 0,
+            "source" : 23
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "cama A _Normal",
+            "uri" : "cama%20A%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "cama A _Base_Color",
+            "uri" : "cama%20A%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "cama A _Metallic-cama A _Roughness",
+            "uri" : "cama%20A%20_Metallic-cama%20A%20_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "colchon A _Normal",
+            "uri" : "colchon%20A%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "colchon A _Base_Color",
+            "uri" : "colchon%20A%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "colchon A _Metallic.png-colchon A _Roughness.png",
+            "uri" : "colchon%20A%20_Metallic_png-colchon%20A%20_Roughness_png.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Cama B _Normal",
+            "uri" : "Cama%20B%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Cama B _Base_Color",
+            "uri" : "Cama%20B%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Cama B _Metallic-Cama B _Roughness",
+            "uri" : "Cama%20B%20_Metallic-Cama%20B%20_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "colchon b _Normal",
+            "uri" : "colchon%20b%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "shadow",
+            "uri" : "shadow.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "colchon b _Metallic-colchon b _Roughness",
+            "uri" : "colchon%20b%20_Metallic-colchon%20b%20_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "baranda B _Normal",
+            "uri" : "baranda%20B%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "baranda B _Base_Color",
+            "uri" : "baranda%20B%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "baranda B _Metallic-baranda B _Roughness",
+            "uri" : "baranda%20B%20_Metallic-baranda%20B%20_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "baranda A _Normal",
+            "uri" : "baranda%20A%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "baranda A _Base_Color",
+            "uri" : "baranda%20A%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "baranda A _Metallic-baranda A _Roughness",
+            "uri" : "baranda%20A%20_Metallic-baranda%20A%20_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "almohada 2_Normal",
+            "uri" : "almohada%202_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "almohada 2_Base_Color",
+            "uri" : "almohada%202_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "almohada 2_Metallic-almohada 2_Roughness",
+            "uri" : "almohada%202_Metallic-almohada%202_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "almohada _Normal",
+            "uri" : "almohada%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "almohada _Base_Color",
+            "uri" : "almohada%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "almohada _Metallic-almohada _Roughness",
+            "uri" : "almohada%20_Metallic-almohada%20_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 178847,
+            "max" : [
+                8.008882446119969e-07,
+                1.1402219533920288,
+                0.9998072981834412
+            ],
+            "min" : [
+                -0.9983950853347778,
+                1.0229412317276,
+                -0.9997235536575317
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 178847,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 178847,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 270912,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 114068,
+            "max" : [
+                -0.02271944284439087,
+                1.2203247547149658,
+                0.897223711013794
+            ],
+            "min" : [
+                -0.9203900098800659,
+                1.1471370458602905,
+                -0.897223711013794
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 114068,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 114068,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 172224,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 161284,
+            "max" : [
+                8.004482765500143e-07,
+                0.12446044385433197,
+                0.9986656308174133
+            ],
+            "min" : [
+                -0.9983950853347778,
+                0.007180408574640751,
+                -0.9970411658287048
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 161284,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 161284,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 242304,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 112670,
+            "max" : [
+                -0.02271944284439087,
+                0.20456328988075256,
+                0.897223711013794
+            ],
+            "min" : [
+                -0.9203900098800659,
+                0.13137608766555786,
+                -0.897223711013794
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 112670,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 112670,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 172224,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 45824,
+            "max" : [
+                1.00812566280365,
+                0.009746267460286617,
+                1.0056262016296387
+            ],
+            "min" : [
+                0.02418368123471737,
+                -0.1416691690683365,
+                -1.0050128698349
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 45824,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 45824,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 68736,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 45824,
+            "max" : [
+                1.00812566280365,
+                0.009746267460286617,
+                1.0056262016296387
+            ],
+            "min" : [
+                0.02418368123471737,
+                -0.1416691690683365,
+                -1.0050128698349
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 45824,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 45824,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9728,
+            "max" : [
+                0.3513089418411255,
+                0.6069978475570679,
+                0.4084330201148987
+            ],
+            "min" : [
+                -0.33855554461479187,
+                0.45819249749183655,
+                0.10286353528499603
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9728,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9728,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 14592,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9728,
+            "max" : [
+                0.3513089418411255,
+                0.6069978475570679,
+                0.4084330201148987
+            ],
+            "min" : [
+                -0.33855554461479187,
+                0.45819249749183655,
+                0.10286353528499603
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9728,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9728,
+            "type" : "VEC2"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 584740,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 440742,
+            "byteOffset" : 584740
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 534723,
+            "byteOffset" : 1025484
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 436563,
+            "byteOffset" : 1560208
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 169669,
+            "byteOffset" : 1996772
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 169669,
+            "byteOffset" : 2166444
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52986,
+            "byteOffset" : 2336116
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52987,
+            "byteOffset" : 2389104
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2442092,
+            "uri" : "bed.bin"
+        }
+    ]
+}
