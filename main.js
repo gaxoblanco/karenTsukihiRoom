@@ -24,6 +24,7 @@ dracoLoader.setDecoderPath('/draco/')
 const gltfLoader = new GLTFLoader()
 gltfLoader.setDRACOLoader(dracoLoader)
 
+
 // addScene, GLTFLoader(config to dracoLoader), ../Obj.gltf 
 dracoModel(scene, gltfLoader, '/models/bed/bed.gltf')
 dracoModel(scene, gltfLoader, '/models/cajonera/cajonera.gltf')

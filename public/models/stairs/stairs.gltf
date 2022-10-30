@@ -34,8 +34,7 @@
                 17,
                 18,
                 19,
-                20,
-                21
+                20
             ]
         }
     ],
@@ -453,26 +452,6 @@
                 6.782325744628906,
                 -31.615009307861328
             ]
-        },
-        {
-            "mesh" : 21,
-            "name" : "Casco silla bace banana y cuerda .015",
-            "rotation" : [
-                0,
-                0.9935043454170227,
-                0,
-                -0.11379506438970566
-            ],
-            "scale" : [
-                11.344831466674805,
-                11.344830513000488,
-                11.344831466674805
-            ],
-            "translation" : [
-                0.4752124845981598,
-                -5.639777183532715,
-                -0.5914127826690674
-            ]
         }
     ],
     "materials" : [
@@ -773,21 +752,6 @@
                 },
                 "metallicRoughnessTexture" : {
                     "index" : 59
-                }
-            }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "cuerdas ",
-            "normalTexture" : {
-                "index" : 60
-            },
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 61
-                },
-                "metallicRoughnessTexture" : {
-                    "index" : 62
                 }
             }
         }
@@ -1316,33 +1280,6 @@
                     "mode" : 4
                 }
             ]
-        },
-        {
-            "name" : "Circle.027",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 84,
-                        "NORMAL" : 85,
-                        "TEXCOORD_0" : 86,
-                        "COLOR_0" : 87
-                    },
-                    "extensions" : {
-                        "KHR_draco_mesh_compression" : {
-                            "bufferView" : 21,
-                            "attributes" : {
-                                "POSITION" : 0,
-                                "NORMAL" : 1,
-                                "TEXCOORD_0" : 2,
-                                "COLOR_0" : 3
-                            }
-                        }
-                    },
-                    "indices" : 88,
-                    "material" : 20,
-                    "mode" : 4
-                }
-            ]
         }
     ],
     "textures" : [
@@ -1585,18 +1522,6 @@
         {
             "sampler" : 0,
             "source" : 59
-        },
-        {
-            "sampler" : 0,
-            "source" : 60
-        },
-        {
-            "sampler" : 0,
-            "source" : 61
-        },
-        {
-            "sampler" : 0,
-            "source" : 62
         }
     ],
     "images" : [
@@ -1622,7 +1547,7 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "Material.002_Base_Color",
+            "name" : "Material_002_Base_Color",
             "uri" : "Material_002_Base_Color.png"
         },
         {
@@ -1637,7 +1562,7 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "Material.036_Base_Color",
+            "name" : "Material_036_Base_Color",
             "uri" : "Material_036_Base_Color.png"
         },
         {
@@ -1667,7 +1592,7 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "Material.034_Base_Color",
+            "name" : "Material_034_Base_Color",
             "uri" : "Material_034_Base_Color.png"
         },
         {
@@ -1682,8 +1607,8 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "Material006Shadow",
-            "uri" : "Material006Shadow.png"
+            "name" : "Material_033_Base_Color",
+            "uri" : "Material_033_Base_Color.png"
         },
         {
             "mimeType" : "image/png",
@@ -1697,7 +1622,7 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "Material.032_Base_Color",
+            "name" : "Material_032_Base_Color",
             "uri" : "Material_032_Base_Color.png"
         },
         {
@@ -1712,7 +1637,7 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "Material.031_Base_Color",
+            "name" : "Material_031_Base_Color",
             "uri" : "Material_031_Base_Color.png"
         },
         {
@@ -1727,7 +1652,7 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "Material.030_Base_Color",
+            "name" : "Material_030_Base_Color",
             "uri" : "Material_030_Base_Color.png"
         },
         {
@@ -1899,21 +1824,6 @@
             "mimeType" : "image/png",
             "name" : "Vidrios_Metallic-Vidrios_Roughness",
             "uri" : "Vidrios_Metallic-Vidrios_Roughness.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "cuerdas _Normal",
-            "uri" : "cuerdas%20_Normal.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "cuerdas _Base_Color",
-            "uri" : "cuerdas%20_Base_Color.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "cuerdas _Metallic-cuerdas _Roughness",
-            "uri" : "cuerdas%20_Metallic-cuerdas%20_Roughness.png"
         }
     ],
     "accessors" : [
@@ -2546,42 +2456,6 @@
             "componentType" : 5123,
             "count" : 972,
             "type" : "SCALAR"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 810658,
-            "max" : [
-                1.1745350360870361,
-                2.9319374561309814,
-                1.1806241273880005
-            ],
-            "min" : [
-                -1.4610263109207153,
-                -0.1952744722366333,
-                -1.8927059173583984
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 810658,
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 810658,
-            "type" : "VEC2"
-        },
-        {
-            "componentType" : 5123,
-            "count" : 810658,
-            "normalized" : true,
-            "type" : "VEC4"
-        },
-        {
-            "componentType" : 5125,
-            "count" : 2234502,
-            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -2689,11 +2563,6 @@
             "buffer" : 0,
             "byteLength" : 2322,
             "byteOffset" : 168352
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 4740304,
-            "byteOffset" : 170676
         }
     ],
     "samplers" : [
@@ -2704,7 +2573,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 4910980,
+            "byteLength" : 170676,
             "uri" : "stairs.bin"
         }
     ]
