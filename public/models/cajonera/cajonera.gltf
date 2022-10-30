@@ -24,11 +24,7 @@
                 7,
                 8,
                 9,
-                10,
-                11,
-                12,
-                13,
-                14
+                10
             ]
         }
     ],
@@ -49,20 +45,6 @@
         },
         {
             "mesh" : 1,
-            "name" : "libros 3S.001",
-            "scale" : [
-                9.47069263458252,
-                9.47069263458252,
-                10.1340913772583
-            ],
-            "translation" : [
-                0.6727672219276428,
-                4.777985095977783,
-                -0.43944767117500305
-            ]
-        },
-        {
-            "mesh" : 2,
             "name" : "placar superior uv",
             "scale" : [
                 9.47069263458252,
@@ -76,27 +58,7 @@
             ]
         },
         {
-            "mesh" : 3,
-            "name" : "libros largo",
-            "rotation" : [
-                0,
-                -1,
-                0,
-                -1.6292068494294654e-07
-            ],
-            "scale" : [
-                9.47069263458252,
-                9.47069263458252,
-                9.47069263458252
-            ],
-            "translation" : [
-                -19.360061645507812,
-                5.626482009887695,
-                35.6252326965332
-            ]
-        },
-        {
-            "mesh" : 4,
+            "mesh" : 2,
             "name" : "Cubo A y B.003",
             "scale" : [
                 9.47069263458252,
@@ -110,7 +72,7 @@
             ]
         },
         {
-            "mesh" : 5,
+            "mesh" : 3,
             "name" : "placar superior uv.001",
             "rotation" : [
                 0,
@@ -130,7 +92,7 @@
             ]
         },
         {
-            "mesh" : 6,
+            "mesh" : 4,
             "name" : "Cubo A y B.002",
             "scale" : [
                 9.47069263458252,
@@ -144,21 +106,7 @@
             ]
         },
         {
-            "mesh" : 7,
-            "name" : "libros 3S.002",
-            "scale" : [
-                9.47069263458252,
-                9.47069263458252,
-                10.1340913772583
-            ],
-            "translation" : [
-                1.088853120803833,
-                4.777985095977783,
-                -0.43944767117500305
-            ]
-        },
-        {
-            "mesh" : 8,
+            "mesh" : 5,
             "name" : "cajonera",
             "scale" : [
                 2.1866118907928467,
@@ -172,7 +120,7 @@
             ]
         },
         {
-            "mesh" : 9,
+            "mesh" : 6,
             "name" : "cajonera Tapa",
             "scale" : [
                 2.1866118907928467,
@@ -186,7 +134,7 @@
             ]
         },
         {
-            "mesh" : 10,
+            "mesh" : 7,
             "name" : "cajonera asa",
             "scale" : [
                 2.1866118907928467,
@@ -200,7 +148,7 @@
             ]
         },
         {
-            "mesh" : 11,
+            "mesh" : 8,
             "name" : "cajonera.001",
             "scale" : [
                 2.1866118907928467,
@@ -214,7 +162,7 @@
             ]
         },
         {
-            "mesh" : 12,
+            "mesh" : 9,
             "name" : "cajonera Tapa.001",
             "scale" : [
                 2.1866118907928467,
@@ -228,20 +176,7 @@
             ]
         },
         {
-            "name" : "cajonera asa.001",
-            "scale" : [
-                2.1866118907928467,
-                2.1866118907928467,
-                2.1866118907928467
-            ],
-            "translation" : [
-                0.6727672219276428,
-                -5.639777183532715,
-                -0.43944767117500305
-            ]
-        },
-        {
-            "mesh" : 13,
+            "mesh" : 10,
             "name" : "cajonera asa.002",
             "scale" : [
                 2.1866118907928467,
@@ -273,7 +208,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.009",
+            "name" : "Material.006",
             "normalTexture" : {
                 "index" : 3
             },
@@ -288,7 +223,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.006",
+            "name" : "cubos.001",
             "normalTexture" : {
                 "index" : 6
             },
@@ -303,7 +238,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.005",
+            "name" : "Material.016",
             "normalTexture" : {
                 "index" : 9
             },
@@ -318,7 +253,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "cubos.001",
+            "name" : "Material",
             "normalTexture" : {
                 "index" : 12
             },
@@ -333,7 +268,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.016",
+            "name" : "cajoneraB",
             "normalTexture" : {
                 "index" : 15
             },
@@ -348,7 +283,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material",
+            "name" : "cajonera tapa ",
             "normalTexture" : {
                 "index" : 18
             },
@@ -363,7 +298,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.004",
+            "name" : "cajonera asaB",
             "normalTexture" : {
                 "index" : 21
             },
@@ -378,7 +313,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "cajoneraB",
+            "name" : "cajonera ",
             "normalTexture" : {
                 "index" : 24
             },
@@ -393,7 +328,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "cajonera tapa ",
+            "name" : "cajonera asa ",
             "normalTexture" : {
                 "index" : 27
             },
@@ -403,51 +338,6 @@
                 },
                 "metallicRoughnessTexture" : {
                     "index" : 29
-                }
-            }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "cajonera asaB",
-            "normalTexture" : {
-                "index" : 30
-            },
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 31
-                },
-                "metallicRoughnessTexture" : {
-                    "index" : 32
-                }
-            }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "cajonera ",
-            "normalTexture" : {
-                "index" : 33
-            },
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 34
-                },
-                "metallicRoughnessTexture" : {
-                    "index" : 35
-                }
-            }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "cajonera asa ",
-            "normalTexture" : {
-                "index" : 36
-            },
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 37
-                },
-                "metallicRoughnessTexture" : {
-                    "index" : 38
                 }
             }
         }
@@ -479,7 +369,7 @@
             ]
         },
         {
-            "name" : "libros escritorio superior",
+            "name" : "placar",
             "primitives" : [
                 {
                     "attributes" : {
@@ -504,7 +394,7 @@
             ]
         },
         {
-            "name" : "placar",
+            "name" : "cubos.001",
             "primitives" : [
                 {
                     "attributes" : {
@@ -529,7 +419,7 @@
             ]
         },
         {
-            "name" : "libros largo",
+            "name" : "Material.016",
             "primitives" : [
                 {
                     "attributes" : {
@@ -554,7 +444,7 @@
             ]
         },
         {
-            "name" : "cubos.001",
+            "name" : "cubos.002",
             "primitives" : [
                 {
                     "attributes" : {
@@ -579,7 +469,7 @@
             ]
         },
         {
-            "name" : "Material.016",
+            "name" : "Cube",
             "primitives" : [
                 {
                     "attributes" : {
@@ -604,7 +494,7 @@
             ]
         },
         {
-            "name" : "cubos.002",
+            "name" : "Cube.009",
             "primitives" : [
                 {
                     "attributes" : {
@@ -629,7 +519,7 @@
             ]
         },
         {
-            "name" : "libros escritorio superior.001",
+            "name" : "Cube.010",
             "primitives" : [
                 {
                     "attributes" : {
@@ -654,7 +544,7 @@
             ]
         },
         {
-            "name" : "Cube",
+            "name" : "Cube.013",
             "primitives" : [
                 {
                     "attributes" : {
@@ -679,7 +569,7 @@
             ]
         },
         {
-            "name" : "Cube.009",
+            "name" : "Cube.015",
             "primitives" : [
                 {
                     "attributes" : {
@@ -698,13 +588,13 @@
                         }
                     },
                     "indices" : 39,
-                    "material" : 9,
+                    "material" : 6,
                     "mode" : 4
                 }
             ]
         },
         {
-            "name" : "Cube.010",
+            "name" : "Cube.017",
             "primitives" : [
                 {
                     "attributes" : {
@@ -723,82 +613,7 @@
                         }
                     },
                     "indices" : 43,
-                    "material" : 10,
-                    "mode" : 4
-                }
-            ]
-        },
-        {
-            "name" : "Cube.013",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 44,
-                        "NORMAL" : 45,
-                        "TEXCOORD_0" : 46
-                    },
-                    "extensions" : {
-                        "KHR_draco_mesh_compression" : {
-                            "bufferView" : 11,
-                            "attributes" : {
-                                "POSITION" : 0,
-                                "NORMAL" : 1,
-                                "TEXCOORD_0" : 2
-                            }
-                        }
-                    },
-                    "indices" : 47,
-                    "material" : 11,
-                    "mode" : 4
-                }
-            ]
-        },
-        {
-            "name" : "Cube.015",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 48,
-                        "NORMAL" : 49,
-                        "TEXCOORD_0" : 50
-                    },
-                    "extensions" : {
-                        "KHR_draco_mesh_compression" : {
-                            "bufferView" : 12,
-                            "attributes" : {
-                                "POSITION" : 0,
-                                "NORMAL" : 1,
-                                "TEXCOORD_0" : 2
-                            }
-                        }
-                    },
-                    "indices" : 51,
                     "material" : 9,
-                    "mode" : 4
-                }
-            ]
-        },
-        {
-            "name" : "Cube.017",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 52,
-                        "NORMAL" : 53,
-                        "TEXCOORD_0" : 54
-                    },
-                    "extensions" : {
-                        "KHR_draco_mesh_compression" : {
-                            "bufferView" : 13,
-                            "attributes" : {
-                                "POSITION" : 0,
-                                "NORMAL" : 1,
-                                "TEXCOORD_0" : 2
-                            }
-                        }
-                    },
-                    "indices" : 55,
-                    "material" : 12,
                     "mode" : 4
                 }
             ]
@@ -855,6 +670,18 @@
         },
         {
             "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
             "source" : 12
         },
         {
@@ -879,30 +706,6 @@
         },
         {
             "sampler" : 0,
-            "source" : 0
-        },
-        {
-            "sampler" : 0,
-            "source" : 1
-        },
-        {
-            "sampler" : 0,
-            "source" : 2
-        },
-        {
-            "sampler" : 0,
-            "source" : 3
-        },
-        {
-            "sampler" : 0,
-            "source" : 4
-        },
-        {
-            "sampler" : 0,
-            "source" : 5
-        },
-        {
-            "sampler" : 0,
             "source" : 18
         },
         {
@@ -915,27 +718,15 @@
         },
         {
             "sampler" : 0,
-            "source" : 21
+            "source" : 12
         },
         {
             "sampler" : 0,
-            "source" : 22
+            "source" : 13
         },
         {
             "sampler" : 0,
-            "source" : 23
-        },
-        {
-            "sampler" : 0,
-            "source" : 24
-        },
-        {
-            "sampler" : 0,
-            "source" : 25
-        },
-        {
-            "sampler" : 0,
-            "source" : 26
+            "source" : 14
         },
         {
             "sampler" : 0,
@@ -948,18 +739,6 @@
         {
             "sampler" : 0,
             "source" : 20
-        },
-        {
-            "sampler" : 0,
-            "source" : 24
-        },
-        {
-            "sampler" : 0,
-            "source" : 25
-        },
-        {
-            "sampler" : 0,
-            "source" : 26
         }
     ],
     "images" : [
@@ -979,21 +758,6 @@
             "uri" : "cubos_Metallic-cubos_Roughness.png"
         },
         {
-            "mimeType" : "image/jpeg",
-            "name" : "Cuarto Monogatari _Libros_Escritoria_Normal",
-            "uri" : "Cuarto%20Monogatari%20_Libros_Escritoria_Normal.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Cuarto Monogatari _Libros_Escritoria_BaseColor",
-            "uri" : "Cuarto%20Monogatari%20_Libros_Escritoria_BaseColor.jpg"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "Cuarto Monogatari _Libros_Escritoria_OcclusionRoughnessMetallic",
-            "uri" : "Cuarto%20Monogatari%20_Libros_Escritoria_OcclusionRoughnessMetallic.png"
-        },
-        {
             "mimeType" : "image/png",
             "name" : "placar_Normal",
             "uri" : "placar_Normal.png"
@@ -1007,21 +771,6 @@
             "mimeType" : "image/png",
             "name" : "placar_Metallic-placar_Roughness",
             "uri" : "placar_Metallic-placar_Roughness.png"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Cuarto Monogatari _Libros_largo_Normal",
-            "uri" : "Cuarto%20Monogatari%20_Libros_largo_Normal.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Cuarto Monogatari _Libros_largo_BaseColor",
-            "uri" : "Cuarto%20Monogatari%20_Libros_largo_BaseColor.jpg"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "Cuarto Monogatari _Libros_largo_OcclusionRoughnessMetallic",
-            "uri" : "Cuarto%20Monogatari%20_Libros_largo_OcclusionRoughnessMetallic.png"
         },
         {
             "mimeType" : "image/png",
@@ -1132,36 +881,6 @@
         },
         {
             "componentType" : 5126,
-            "count" : 19707,
-            "max" : [
-                -3.1742026805877686,
-                1.1568366289138794,
-                -1.153332233428955
-            ],
-            "min" : [
-                -3.4469127655029297,
-                0.009097197093069553,
-                -2.716888666152954
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 19707,
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 19707,
-            "type" : "VEC2"
-        },
-        {
-            "componentType" : 5123,
-            "count" : 33870,
-            "type" : "SCALAR"
-        },
-        {
-            "componentType" : 5126,
             "count" : 1631,
             "max" : [
                 2.629487991333008,
@@ -1188,36 +907,6 @@
         {
             "componentType" : 5123,
             "count" : 3240,
-            "type" : "SCALAR"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 14534,
-            "max" : [
-                1.0361547470092773,
-                0.34762775897979736,
-                0.24913084506988525
-            ],
-            "min" : [
-                -3.1888885498046875,
-                -0.2188081443309784,
-                0.020888954401016235
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 14534,
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 14534,
-            "type" : "VEC2"
-        },
-        {
-            "componentType" : 5123,
-            "count" : 25416,
             "type" : "SCALAR"
         },
         {
@@ -1308,36 +997,6 @@
         {
             "componentType" : 5123,
             "count" : 4536,
-            "type" : "SCALAR"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 19707,
-            "max" : [
-                3.4469127655029297,
-                1.1568366289138794,
-                -1.153332233428955
-            ],
-            "min" : [
-                3.1742026805877686,
-                0.009097197093069553,
-                -2.716888666152954
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 19707,
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 19707,
-            "type" : "VEC2"
-        },
-        {
-            "componentType" : 5123,
-            "count" : 33870,
             "type" : "SCALAR"
         },
         {
@@ -1529,68 +1188,53 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 85305,
+            "byteLength" : 7118,
             "byteOffset" : 3852
         },
         {
             "buffer" : 0,
-            "byteLength" : 7118,
-            "byteOffset" : 89160
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 63507,
-            "byteOffset" : 96280
-        },
-        {
-            "buffer" : 0,
             "byteLength" : 12394,
-            "byteOffset" : 159788
+            "byteOffset" : 10972
         },
         {
             "buffer" : 0,
             "byteLength" : 10883,
-            "byteOffset" : 172184
+            "byteOffset" : 23368
         },
         {
             "buffer" : 0,
             "byteLength" : 3828,
-            "byteOffset" : 183068
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 83944,
-            "byteOffset" : 186896
+            "byteOffset" : 34252
         },
         {
             "buffer" : 0,
             "byteLength" : 5734,
-            "byteOffset" : 270840
+            "byteOffset" : 38080
         },
         {
             "buffer" : 0,
             "byteLength" : 1567,
-            "byteOffset" : 276576
+            "byteOffset" : 43816
         },
         {
             "buffer" : 0,
             "byteLength" : 1816,
-            "byteOffset" : 278144
+            "byteOffset" : 45384
         },
         {
             "buffer" : 0,
             "byteLength" : 5738,
-            "byteOffset" : 279960
+            "byteOffset" : 47200
         },
         {
             "buffer" : 0,
             "byteLength" : 1500,
-            "byteOffset" : 285700
+            "byteOffset" : 52940
         },
         {
             "buffer" : 0,
             "byteLength" : 1843,
-            "byteOffset" : 287200
+            "byteOffset" : 54440
         }
     ],
     "samplers" : [
@@ -1601,7 +1245,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 289044,
+            "byteLength" : 56284,
             "uri" : "cajonera.bin"
         }
     ]
