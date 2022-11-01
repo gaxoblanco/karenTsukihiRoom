@@ -42,7 +42,7 @@ dracoModel(scene, gltfLoader, '/models/windows/windows.gltf')
 /**
  * Lights
  */
- const ambientLight = new THREE.AmbientLight(0xffffff, 1.6)
+ const ambientLight = new THREE.AmbientLight(0xffffff, 3)
  scene.add(ambientLight)
 
 // spotLight - addScene, watts,distance,aperture positionXYZ, directionXYZ, 
